@@ -3,7 +3,7 @@ name: FreeMCServer-Renew
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */2 * * *'   # 每2小时自动运行
+    - cron: '0 */3 * * *'   # 每2小时自动运行
 
 jobs:
   renew:
