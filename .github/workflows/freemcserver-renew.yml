@@ -63,7 +63,6 @@ jobs:
         env:
           PYTHONIOENCODING: utf-8
           FMCS_ACCOUNT: ${{ secrets.FMCS_ACCOUNT }}
-          FMCS_SERVER_ID: ${{ secrets.FMCS_SERVER_ID }}
           TG_BOT: ${{ secrets.TG_BOT }}
           GOST_PROXY: ${{ secrets.GOST_PROXY }}
         run: |
