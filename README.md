@@ -21,8 +21,7 @@
 
 | Secret | 说明 |
 |--------|------|
-| `FMCS_ACCOUNT` | 账号信息，格式：`邮箱,密码` |
-| `FMCS_SERVER_ID` | 服务器 ID，例如：`1992440` |
+| `FMCS_ACCOUNT` | 账号信息，格式：`邮箱,密码,服务器ID,服务器名称` |
 | `TG_BOT` | Telegram 推送，格式：`chat_id,bot_token` |
 | `GOST_PROXY` | 代理地址，例如：`socks5://user:pass@host:port`（可选）|
 | `PRIVATE_REPO_TOKEN` | 私库访问 Token |
